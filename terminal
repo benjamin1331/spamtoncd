@@ -1,0 +1,80 @@
+Welcome to the terminal.
+
+
+	Please enter a valid prompt: [
+
+
+
+
+
+
+// GENERAL IDEAS //
+
+Upon leaving the terminal, it is reset, meaning everytime you leave and come back, it refreshes.
+Only one command at a time.
+Must be reloaded to enter a new command
+The setSkin command uses another Voices file in songs as well as changing your skin.
+
+
+
+// VALID PROMPTS //
+
+getSong(“song-name”, difficulty) - starts the desired song
+
+help - opens command help window
+
+getSettings - opens settings
+
+getCredits - plays the credits video
+
+setSkin(“skin-name”) - sets your skin for freeplay
+
+setCode(“song-code”) - opens secret songs specifically
+
+end - exits the terminal 
+
+
+
+
+
+
+
+
+// VALID PROMPT EXAMPLES //
+
+Welcome to the terminal.
+
+
+	Please enter a valid prompt: getSong(excoriation, hard)
+	
+	Loading “Excoriation”, by JammyJample...
+
+
+
+Welcome to the terminal.
+
+
+	Please enter a valid prompt: setSkin(BOYFRIEND)
+
+	Skin set as “BOYFRIEND”.
+
+
+
+
+// INVALID PROMPT EXAMPLES //
+
+Welcome to the terminal.
+
+
+	Please enter a valid prompt: getSong(excoriation,2)
+	
+	Error. Please reload the terminal.
+
+
+
+Welcome to the terminal.
+
+
+	Please enter a valid prompt: getSong(excoriation,2)
+	
+	Error. Please reload the terminal.
